@@ -1,0 +1,31 @@
+{
+    "name": "yireo/magento2-remove-search",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yireo\\RemoveSearch\\": "",
+            "Magento\\Search\\": "Magento/Search"
+        }
+    },
+    "replace": {
+        "magento/module-advanced-search": "*",
+        "magento/module-catalog-search": "*",
+        "magento/module-elasticsearch": "*",
+        "magento/module-elasticsearch-6": "*",
+        "magento/module-elasticsearch-7": "*",
+        "magento/module-inventory-catalog-search": "*",
+        "magento/module-inventory-elasticsearch": "*",
+        "magento/module-search": "*"
+    }
+}
