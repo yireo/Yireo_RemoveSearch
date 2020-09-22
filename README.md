@@ -10,7 +10,7 @@ Instead, copy the extension to some kind of other folder in your Magento root, l
     cd package-source/
     git clone git@github.com:yireo/Yireo_RemoveSearch.git
     cd -
-    composer add repositories.yireo-removesearch path package-source/Yireo_RemoveSearch
+    composer config repositories.yireo-removesearch path package-source/Yireo_RemoveSearch
 
 First, register this module in your `composer.json` file:
 
