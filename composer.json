@@ -4,7 +4,7 @@
     "description": "N/A",
     "type": "magento2-module",
     "require": {
-        "magento/framework": "*"
+        "magento/framework": "^101.0|^102.0|^103.0"
     },
     "license": [
         "Proprietary"
@@ -15,7 +15,8 @@
         ],
         "psr-4": {
             "Yireo\\RemoveSearch\\": "",
-            "Magento\\Search\\": "Magento/Search"
+            "Magento\\Search\\": "Magento/Search",
+            "Magento\\CatalogSearch\\": "Magento/CatalogSearch"
         }
     },
     "replace": {
@@ -26,6 +27,7 @@
         "magento/module-elasticsearch-7": "*",
         "magento/module-inventory-catalog-search": "*",
         "magento/module-inventory-elasticsearch": "*",
-        "magento/module-search": "*"
+        "magento/module-search": "*",
+        "elasticsearch/elasticsearch": "*"
     }
 }
