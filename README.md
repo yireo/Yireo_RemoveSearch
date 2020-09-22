@@ -30,12 +30,17 @@ Please note that a simple `composer require yireo/magento2-remove-search` will n
 After this, make sure to enable the module:
 
     bin/magento module:enable Yireo_RemoveSearch
+    rm -r generated/
+    bin/magento cache:flush
+
+Make sure your cache is properly wiped. Or wipe your Magento cache folder (`rm -r var/cache`). Or wipe Redis (`redis-cli flushall`). Or something.
     
 ## Testing if it works
-To test if things are working, make sure to play around with the following commands:
-
-    composer show | grep -i search
-    bin/magento cache:flush
+To test if things are working, make sure to play around with the following commands - they should just happen with PHP Fatal Errors:
+     
     bin/magento setup:upgrade
     bin/magento setup:di:compile
 
+Additionally:
+
+- `composer show | grep -i search` should output some packages, but no longer the Magento 2 modules for search
