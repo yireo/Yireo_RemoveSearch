@@ -18,16 +18,5 @@
             "Magento\\Search\\": "Magento/Search",
             "Magento\\CatalogSearch\\": "Magento/CatalogSearch"
         }
-    },
-    "replace": {
-        "magento/module-advanced-search": "*",
-        "magento/module-catalog-search": "*",
-        "magento/module-elasticsearch": "*",
-        "magento/module-elasticsearch-6": "*",
-        "magento/module-elasticsearch-7": "*",
-        "magento/module-inventory-catalog-search": "*",
-        "magento/module-inventory-elasticsearch": "*",
-        "magento/module-search": "*",
-        "elasticsearch/elasticsearch": "*"
     }
 }

@@ -16,6 +16,20 @@ First, register this module in your `composer.json` file:
 
     composer require yireo/magento2-remove-search --no-update
 
+Next, open up the `composer.json` file and add the following manually to your configuration:
+
+    "replace": {
+        "magento/module-advanced-search": "*",
+        "magento/module-catalog-search": "*",
+        "magento/module-elasticsearch": "*",
+        "magento/module-elasticsearch-6": "*",
+        "magento/module-elasticsearch-7": "*",
+        "magento/module-inventory-catalog-search": "*",
+        "magento/module-inventory-elasticsearch": "*",
+        "magento/module-search": "*",
+        "elasticsearch/elasticsearch": "*"
+    }
+
 Next, run:
 
     composer update
