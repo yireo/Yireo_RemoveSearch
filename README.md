@@ -1,4 +1,7 @@
 # Yireo_RemoveSearch
+
+**DEPRECATED: This module is deprecated in favor of https://github.com/swissup/module-search-mysql-legacy**
+
 A module that removes both MySQL and ElasticSearch from Magento. This is experimental and might not be perfect. Note that this module is supposed to *hack* things in your Magento site. If you are experiencing problems, feel free to open up an **Issue** on GitHub. But please take note that this module is something built for experienced developers, it takes a developers mind to properly troubleshoot things.
 
 ## Installation via composer
