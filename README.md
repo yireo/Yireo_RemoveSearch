@@ -1,5 +1,13 @@
 # Yireo_RemoveSearch
 
+<!-- badges.specs.start -->
+![Magento version](https://img.shields.io/badge/Magento-2.4.6%20%7C%202.4.9-orange)
+![PHP version](https://img.shields.io/badge/PHP-8.2%E2%80%938.5-777BB4)
+![License](https://img.shields.io/badge/License-OSL--3.0-blue)
+![Latest Version](https://img.shields.io/packagist/v/yireo/magento2-remove-search)
+<!-- badges.specs.end -->
+
+
 **DEPRECATED: This module is deprecated in favor of https://github.com/swissup/module-search-mysql-legacy if you still need a search and in favor of https://github.com/zepgram/module-disable-search-engine if you do not need any searcht at all.**
 
 A module that removes both MySQL and ElasticSearch from Magento. This is experimental and might not be perfect. Note that this module is supposed to *hack* things in your Magento site. If you are experiencing problems, feel free to open up an **Issue** on GitHub. But please take note that this module is something built for experienced developers, it takes a developers mind to properly troubleshoot things.
@@ -61,3 +69,13 @@ To test if things are working, make sure to play around with the following comma
 Additionally:
 
 - `composer show | grep -i search` should output some packages, but no longer the Magento 2 modules for search
+
+## Current status
+
+<!-- badges.test.start -->
+![Static Tests](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_RemoveSearch/static-tests.yml?label=static-tests)
+![Unit Tests](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_RemoveSearch/unit-tests.yml?label=unit-tests)
+![Integration Tests](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_RemoveSearch/integration-tests.yml?label=integration-tests)
+![Playwright](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_RemoveSearch/playwright.yml?label=playwright)
+![DI Compilation](https://img.shields.io/github/actions/workflow/status/yireo/Yireo_RemoveSearch/compile.yml?label=compile)
+<!-- badges.test.end -->
