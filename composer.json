@@ -5,6 +5,9 @@
     "type": "magento2-module",
     "require": {
         "magento/framework": "^101.0|^102.0|^103.0",
+        "magento/module-catalog": "^104.0",
+        "magento/module-catalog-search": "^102.0",
+        "magento/module-search": "^101.1",
         "php": ">=8.2 <8.6"
     },
     "license": [
