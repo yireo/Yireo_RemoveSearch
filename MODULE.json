@@ -1,6 +1,11 @@
 {
     "module_name": "Yireo_RemoveSearch",
     "composer_name": "yireo/magento2-remove-search",
-    "sequence": [],
-    "phpstan_level": "5"
+    "sequence": [
+        "Magento_Catalog",
+        "Magento_CatalogSearch",
+        "Magento_Search"
+    ],
+    "phpstan_level": "5",
+    "phpcs_severity": "8"
 }
