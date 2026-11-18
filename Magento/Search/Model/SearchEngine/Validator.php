@@ -2,10 +2,10 @@
 
 namespace Magento\Search\Model\SearchEngine;
 
-class Validator
+class Validator implements ValidatorInterface
 {
-    public function validate()
+    public function validate(): array
     {
-        return;
+        return [];
     }
 }
