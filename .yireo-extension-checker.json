@@ -1,0 +1,6 @@
+{
+  "ignore": [
+    "Magento_GraphQl",
+    "magento/module-graph-ql"
+  ]
+}
