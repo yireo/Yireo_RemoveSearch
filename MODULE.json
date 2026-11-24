@@ -4,7 +4,10 @@
     "sequence": [
         "Magento_Catalog",
         "Magento_CatalogSearch",
-        "Magento_Search"
+        "Magento_Eav",
+        "Magento_Search",
+        "Magento_Store",
+        "Magento_Webapi"
     ],
     "phpstan_level": "5",
     "phpcs_severity": "8"
