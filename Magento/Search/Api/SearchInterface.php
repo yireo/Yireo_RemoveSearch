@@ -2,9 +2,8 @@
 
 namespace Magento\Search\Api;
 
-use Magento\Framework\Api\Search\SearchCriteriaInterface;
+use Magento\Framework\Api\Search\SearchInterface as FrameworkSearchInterface;
 
-interface SearchInterface
+interface SearchInterface extends FrameworkSearchInterface
 {
-    public function search(SearchCriteriaInterface $searchCriteria);
 }

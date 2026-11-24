@@ -6,6 +6,6 @@ class PageSizeProvider
 {
     public function getMaxPageSize(): int
     {
-        return 1000000000;
+        return 10000;
     }
 }
