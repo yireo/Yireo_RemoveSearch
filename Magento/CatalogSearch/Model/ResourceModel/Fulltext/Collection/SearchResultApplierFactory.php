@@ -7,25 +7,19 @@ use Magento\Framework\ObjectManagerInterface;
 class SearchResultApplierFactory
 {
     /**
-     * @var ObjectManagerInterface
-     */
-    private $objectManager;
-
-    /**
-     * SearchResultApplierFactory constructor.
      * @param ObjectManagerInterface $objectManager
      */
     public function __construct(
-        ObjectManagerInterface $objectManager
+        private readonly ObjectManagerInterface $objectManager
     ) {
-        $this->objectManager = $objectManager;
     }
 
     /**
+     * @param array $data
      * @return SearchResultApplier
      */
-    public function create(): SearchResultApplier
+    public function create(array $data = []): SearchResultApplier
     {
-        return $this->objectManager->create(SearchResultApplier::class);
+        return $this->objectManager->create(SearchResultApplier::class, $data);
     }
 }
