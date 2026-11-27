@@ -10,5 +10,45 @@
         "Magento_Webapi"
     ],
     "phpstan_level": "5",
-    "phpcs_severity": "8"
+    "phpcs_severity": "8",
+    "php_versions": [
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.4"
+    ],
+    "skip_magento_versions": [],
+    "skip_css_utils": false,
+    "modules": [
+        "Magento_AdminNotification",
+        "Magento_Backend",
+        "Magento_Catalog",
+        "Magento_CatalogInventory",
+        "Magento_CatalogRule",
+        "Magento_CatalogSearch",
+        "Magento_Cms",
+        "Magento_Config",
+        "Magento_Csp",
+        "Magento_Customer",
+        "Magento_Directory",
+        "Magento_Eav",
+        "Magento_Indexer",
+        "Magento_Integration",
+        "Magento_MediaGalleryUiApi",
+        "Magento_Rule",
+        "Magento_Search",
+        "Magento_Security",
+        "Magento_Store",
+        "Magento_Theme",
+        "Magento_User",
+        "Magento_Variable",
+        "Magento_Webapi"
+    ],
+    "components": [],
+    "config": [],
+    "tests": {
+        "unit": 0,
+        "integration": 21,
+        "functional": 0
+    }
 }
